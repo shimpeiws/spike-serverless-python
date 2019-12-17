@@ -1,0 +1,17 @@
+service: spike-serverless-python
+
+provider:
+  name: aws
+  runtime: python3.6
+  region: ap-northeast-1
+
+plugins:
+  - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
+
+functions:
+  hello:
+    handler: handler.main
