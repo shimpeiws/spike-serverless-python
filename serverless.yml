@@ -11,6 +11,8 @@ plugins:
 custom:
   pythonRequirements:
     dockerizePip: non-linux
+    zip: true
+    slim: true
 
 functions:
   hello:

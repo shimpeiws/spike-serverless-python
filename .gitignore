@@ -20,3 +20,5 @@ var/
 .serverless
 spike-serverless-python
 node_modules
+
+.requirements.zip
