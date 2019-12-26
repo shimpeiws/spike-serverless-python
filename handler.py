@@ -50,5 +50,12 @@ def main(event, context):
     print("width: " + str(width))
     print("height: " + str(height))
 
+    return {
+        'isBase64Encoded': False,
+        'statusCode': 200,
+        'headers': {},
+        'body': '{"message": "Hello from AWS Lambda"}'
+    }
+
 if __name__ == "__main__":
     main('', '')

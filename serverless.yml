@@ -17,3 +17,7 @@ custom:
 functions:
   hello:
     handler: handler.main
+    events:
+      - http:
+          method: get
+          path: hello
