@@ -13,6 +13,7 @@ custom:
     dockerizePip: non-linux
     zip: true
     slim: true
+    strip: false
 
 functions:
   hello:
