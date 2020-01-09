@@ -5,6 +5,9 @@
 ### Setup environment variables
 
 `cp .envrc.example .envrc`
+
+Update `.envrc` to setup AWS Keys.
+
 `direnv allow`
 
 ### Build Docker
