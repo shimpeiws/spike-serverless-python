@@ -22,3 +22,5 @@ spike-serverless-python
 node_modules
 
 .requirements.zip
+
+.env
