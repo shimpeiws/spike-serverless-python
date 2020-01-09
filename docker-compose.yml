@@ -1,0 +1,11 @@
+version: "3"
+services:
+  app:
+    build: ./
+    environment:
+      - SLS_DEBUG=*
+      - AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
+      - AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
+volumes:
+  data:
+    driver: "local"
