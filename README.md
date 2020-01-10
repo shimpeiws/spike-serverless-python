@@ -1,8 +1,10 @@
 # spike-serverless-python
 
-## Deployment fron Docker
+## Deployment from Docker
 
 ### Setup environment variables
+
+If you are using direnv, you can follow this way. If not, you need to setup environment variables in .envrc.example by your self.
 
 `cp .envrc.example .envrc`
 
